@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Chart displaying data about autism prevalence studies using d3.js",
   "main": "index.js",
-  "author": "",
+  "author": "Tim Bradley",
   "license": "GPL Version 3",
   "dependencies": {
     "express": "^4.13.4",
