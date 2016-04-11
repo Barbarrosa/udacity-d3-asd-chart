@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="./d3.v3.min.js"></script>
+        <style>
+            .axis text {
+                font: 10px sans-serif;
+            }
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: #000;
+                shape-rendering: crispEdges;
+            }
+            .csl-bib-body {
+                line-height:1.35;
+                padding-left: 2em;
+                text-indent:-2em;
+            }
+            svg.chart path {
+                fill: none;
+                stroke: #000;
+                shape-rendering: crispEdges;
+            }
+            svg.chart circle {
+                fill: rgba(30,30,220,.7);
+                r: 3;
+                cursor:pointer;
+            }
+            svg.chart circle.selected {
+                fill: rgb(30,30,220);
+                stroke: rgb(120,120,30);
+                r: 10;
+            }
+            svg.chart circle.highlighted, svg.chart circle:hover {
+                fill: rgb(30,220,30);
+                stroke: rgb(120,120,30);
+                r: 10;
+            }
+            .study-blocks {
+                margin: 0;
+                padding: 0;
+            }
+            .study-blocks li {
+                display: inline-block;
+                list-style: none;
+                margin: 1px;
+                padding: 2px 4px;
+                background-color: rgba(150, 150, 240, 0.4);
+                border-radius: .5em;
+                cursor:pointer;
+            }
+            .study-blocks li.selected {
+                background-color: rgba(150, 150, 255, 0.9);
+            }
+            .study-blocks li.highlighted, .study-blocks li:hover {
+                background-color: rgba(150, 255, 150, 0.9);
+            }
+        </style>
+    </head>
+    <body>
+        <svg class="chart">
+        </svg>
+        <div class="csl-bib-body">
+            <div class="csl-entry">"Summary of Autism Spectrum Disorder (ASD) Prevalence Studies" <i>CDC - Facts about Autism Spectrum Disorders - NCBDDD</i>. Accessed April 9, 2016. http://www.cdc.gov/ncbddd/autism/documents/asdprevalencedatatable2016.pdf.</div>
+        </div>
+        <script src="./autism.js"></script>
+    </body>
+</html>

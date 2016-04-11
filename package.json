@@ -1,0 +1,15 @@
+{
+  "name": "bar-chart",
+  "version": "1.0.0",
+  "description": "A simple SVG bar chart. Part of the tutorial series [Let’s Make a Bar Chart](http://bost.ocks.org/mike/bar/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  }
+}
