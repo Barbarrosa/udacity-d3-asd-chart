@@ -1,13 +1,10 @@
 {
-  "name": "bar-chart",
+  "name": "udacity-d3-asd-chart",
   "version": "1.0.0",
-  "description": "A simple SVG bar chart. Part of the tutorial series [Let’s Make a Bar Chart](http://bost.ocks.org/mike/bar/).",
+  "description": "Chart displaying data about autism prevalence studies using d3.js",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
-  "license": "ISC",
+  "license": "GPL Version 3",
   "dependencies": {
     "express": "^4.13.4",
     "path": "^0.12.7"
